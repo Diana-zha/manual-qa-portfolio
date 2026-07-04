@@ -6,14 +6,6 @@ DemoQA Student Registration Form
 
 ## Questions
 
-# Questions to Product Owner / Analyst
-
-## Feature
-
-DemoQA Student Registration Form
-
-## Questions
-
 1. Должны ли обязательными быть только поля First Name, Last Name, Gender и Mobile, или также Email, Date of Birth, Subjects, Hobbies, Current Address, State и City?
 
 2. Какие ограничения по минимальной и максимальной длине должны быть у полей First Name и Last Name?

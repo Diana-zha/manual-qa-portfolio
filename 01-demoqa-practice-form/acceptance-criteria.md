@@ -4,14 +4,6 @@
 
 DemoQA Student Registration Form
 
-## Acceptance Criteria
-
-# Acceptance Criteria
-
-## Feature
-
-DemoQA Student Registration Form
-
 ## Source
 
 Критерии приёмки составлены на основе наблюдаемого поведения формы и предположений QA, так как официальные требования не предоставлены.
