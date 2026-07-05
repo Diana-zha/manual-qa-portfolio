@@ -9,7 +9,7 @@ DemoQA Student Registration Form
 ### TC-01: Успешная отправка формы с заполнением обязательных полей
 
 **Priority:** High  
-**Status:** Not Executed
+**Status:** Passed
 
 **Preconditions:**
 - Открыта страница DemoQA Practice Form.
@@ -37,7 +37,7 @@ DemoQA Student Registration Form
 ### TC-02: Успешная отправка формы с заполнением всех полей
 
 **Priority:** High  
-**Status:** Not Executed
+**Status:** Passed
 
 **Preconditions:**
 - Открыта страница DemoQA Practice Form.
@@ -81,7 +81,7 @@ DemoQA Student Registration Form
 ### TC-03: Проверка обязательных полей при отправке пустой формы
 
 **Priority:** High  
-**Status:** Not Executed
+**Status:** Passed
 
 **Preconditions:**
 - Открыта страница DemoQA Practice Form.
@@ -103,7 +103,7 @@ DemoQA Student Registration Form
 ### TC-04: Валидация Mobile — менее 10 цифр
 
 **Priority:** High  
-**Status:** Not Executed
+**Status:** Passed
 
 **Preconditions:**
 - Открыта страница DemoQA Practice Form.
@@ -131,7 +131,7 @@ DemoQA Student Registration Form
 ### TC-05: Ограничение длины поля Mobile при вводе более 10 цифр
 
 **Priority:** High  
-**Status:** Not Executed
+**Status:** Passed
 
 **Preconditions:**
 - Открыта страница DemoQA Practice Form.
@@ -152,7 +152,7 @@ DemoQA Student Registration Form
 ### TC-06: Валидация Email — невалидный формат
 
 **Priority:** High  
-**Status:** Not Executed
+**Status:** Passed
 
 **Preconditions:**
 - Открыта страница DemoQA Practice Form.
@@ -182,7 +182,7 @@ DemoQA Student Registration Form
 ### TC-07: Проверка зависимости State и City
 
 **Priority:** Medium  
-**Status:** Not Executed
+**Status:** Passed
 
 **Preconditions:**
 - Открыта страница DemoQA Practice Form.
@@ -203,3 +203,34 @@ DemoQA Student Registration Form
 
 4. Выбрать значение City: Delhi.  
    **Expected Result:** Значение Delhi отображается в поле City.
+
+---
+
+### TC-08: Закрытие модального окна подтверждения по кнопке Close
+
+**Priority:** Medium  
+**Status:** Failed
+
+**Preconditions:**
+- Открыта страница DemoQA Practice Form.
+- Форма успешно отправлена.
+- Отображается модальное окно подтверждения.
+
+**Test Data:**
+- First Name: Anna
+- Last Name: Ivanova
+- Gender: Female
+- Mobile: 1234567890
+
+**Steps:**
+1. Заполнить обязательные поля First Name, Last Name, Gender и Mobile валидными данными.
+2. Нажать кнопку Submit.
+3. Убедиться, что отображается модальное окно подтверждения.
+4. Нажать кнопку Close в модальном окне подтверждения.
+
+**Expected Result:**
+- Модальное окно подтверждения закрывается после нажатия кнопки Close.
+
+**Actual Result:**
+- Модальное окно подтверждения не закрывается после нажатия кнопки Close.
+- Модальное окно можно закрыть только при клике вне области окна или с помощью клавиши Esc.
